@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "orange"
+version = "0.1.0"
+description = ""
+authors = ["tliangso <earth78203@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+orange3 = "^3.36.2"  
+pyqt5-qt5 = "=5.15.2"
+pyqt5 = "^5.15.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
